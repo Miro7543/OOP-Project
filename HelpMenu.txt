@@ -1,0 +1,83 @@
+__________________________________________________________________________________________________________________________
+_______________________| Help menu for the program |______________________________________________________________________
+
+The following commands are supported
+-Working with files:
+    open <file> - Opens <file>.
+
+    close - Closes currently opened file.
+
+    save - Saves the currently open file.
+
+    saveas <file> - Saves the currently open file in <file>.
+
+    exit - Exists the program.
+
+    help - Prints this information.
+
+    create <shape> <args>- Creates the <shape> with the given <args> in the end of the list.
+    
+    erase <shapeNumber> - Erases the shape with index <shapeNumber>.
+    
+    area <shapeNumber> - Prints the area of the selected shape(works for circle, rectangle, ellipse, polyon)
+    
+    perimeter <shapeNumber> - Prints the perimeter of the selected shape(works for circle, rectangle, ellipse, polyon)
+    
+    length <shapeNumber> - Prints the length of the selected shape(works for line, polyline)
+    
+    within "circle"/"rectangle" <args> - Prints the shapes inside the circle/rectangle.
+                                         When selected circle expect the following arguments: cx cy r
+                                         When selected rectangle expect the following arguments: x y width heigth
+    
+    translate <shapeNumber>(optional) horizontal=<offX> vertical=<offY> - Translates the shape with index <shapeNumber> 
+                                                                          by <offsetX> and <offsetY>. If no <shapeNumber>
+                                                                          is missing will tranlate all shapes.
+__________________________________________________________________________________________________________________________
+
+-Supported shapes: rect, circle, ellipse, line, polyline, polygon, group
+__________________________________________________________________________________________________________________________
+-Creating shapes:
+    -create rect <args>
+        Possible templates for args:
+            (1) x y width heigth
+            (2) x y width heigth fill
+            (3) x y width heigth fill stroke
+            (4) x y width heigth fill stroke stroke-width
+            (5) x y width heigth rx ry fill stroke stroke-width
+    
+    -create circle <args>
+        Possible templates for args:
+            (1) cx cy r
+            (2) cx cy r fill
+            (3) cx cy r fill stroke
+            (4) cx cy r fill stroke stroke-width
+    
+    -create ellipse <args>
+        Possible templates for args:
+            (1) cx cy rx ry
+            (2) cx cy rx ry fill
+            (3) cx cy rx ry fill stroke
+            (4) cx cy rx ry fill stroke stroke-width
+    
+    -create polygon <args>
+        Possible templates for args:
+            (1) points
+            (2) points fill
+            (3) points fill stroke
+            (4) points fill stroke stroke-width
+            Where points is in the following format: x1, y1, x2, y2, .... xn, yn
+    
+    -create polyline <args>
+        Possible templates for args:
+            (1) points
+            (2) points fill
+            (3) points fill stroke
+            (4) points fill stroke stroke-width
+            Where points is in the following format: x1, y1, x2, y2, .... xn, yn
+    
+    -create line <args>
+        Possible templates for args:
+            (1) x1 y1 x2 y2
+            (2) x1 y1 x2 y2 stroke
+            (3) x1 y1 x2 y2 stroke stroke-width
+__________________________________________________________________________________________________________________________

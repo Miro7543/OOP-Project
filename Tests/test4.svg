@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="387" viewBox="0 0 340 387">
+	<rect x="0" y="0" rx="0" ry="0" width="50" height="50" />
+	<rect x="60" y="0" rx="0" ry="0" width="50" height="50" fill="red" />
+	<rect x="120" y="0" rx="0" ry="0" width="50" height="50" fill="red" stroke="blue" />
+	<rect x="180" y="0" rx="0" ry="0" width="50" height="50" fill="red" stroke="blue" stroke-width="7" />
+	<rect x="240" y="0" rx="5" ry="5" width="50" height="50" fill="red" stroke="blue" stroke-width="15" />
+	<circle cx="30" cy="100" r="25" />
+	<circle cx="90" cy="100" r="25" fill="green" />
+	<circle cx="150" cy="100" r="25" fill="green" stroke="orange" />
+	<circle cx="210" cy="100" r="25" fill="green" stroke="orange" stroke-width="10" />
+	<ellipse cx="30" cy="150" rx="25" ry="10" />
+	<ellipse cx="90" cy="150" rx="25" ry="10" fill="blue" />
+	<ellipse cx="150" cy="150" rx="25" ry="10" fill="blue" stroke="yellow" />
+	<ellipse cx="210" cy="150" rx="25" ry="10" fill="blue" stroke="yellow" stroke-width="10" />
+	<polygon points="25,170 33,187 50,187 37,204 42,221 25,210 8,221 13,204 1,187 17,187" />
+	<polygon points="90,170 98,187 115,187 102,204 107,221 90,210 73,221 78,204 66,187 82,187" fill="yellow" />
+	<polygon points="155,170 163,187 180,187 167,204 172,221 155,210 138,221 143,204 131,187 147,187" fill="yellow" stroke="black" />
+	<polygon points="215,170 223,187 240,187 227,204 232,221 215,210 198,221 203,204 191,187 207,187" fill="yellow" stroke="black" stroke-width="8" />
+	<line x1="10" y1="250" x2="50" y2="300" fill="none" />
+	<line x1="60" y1="250" x2="110" y2="300" fill="none" stroke="blue" />
+	<line x1="120" y1="250" x2="170" y2="300" fill="none" stroke="blue" stroke-width="8" />
+	<polyline points="25,320 33,337 50,337 37,354 42,371 25,360 8,371 13,354 1,337 17,337" fill="none" />
+	<polyline points="90,320 98,337 115,337 102,354 107,371 90,360 73,371 78,354 66,337 82,337" fill="transparent" />
+	<polyline points="155,320 163,337 180,337 167,354 172,371 155,360 138,371 143,354 131,337 147,337" fill="transparent" stroke="orange" />
+	<polyline points="215,320 223,337 240,337 227,354 232,371 215,360 198,371 203,354 191,337 207,337" fill="transparent" stroke="orange" stroke-width="7" />
+</svg>
+

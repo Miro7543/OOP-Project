@@ -1,0 +1,59 @@
+open c:\Users\Miro\Programming\FMI\OOP\OOP Project\Tests\test3.svg
+print
+create rectangle -1000 -1000 10 20 yellow
+print
+within rectangle 30 30 210 80
+within rectangle 30 30 40 80
+within rectangle 30 30 80 80
+within circle 0 0 277
+within circle 0 0 278
+erase 12
+erase 11
+erase -1
+erase 0
+erase 100
+print
+translate vertical=10 horizontal=100
+saveas c:\Users\Miro\Programming\FMI\OOP\OOP Project\Tests\test4.svg
+translate vertical=-10 horizontal=-100
+print
+save
+exit
+
+
+
+open c:\Users\Miro\Programming\FMI\OOP\OOP Project\Tests\test4.svg
+create rectangle 0 0 50 50
+create rectangle 60 0 50 50 red
+create rectangle 120 0 50 50 red blue
+create rectangle 180 0 50 50 red blue 7
+create rectangle 240 0 50 50 5 5 red blue 15
+
+create circle 30 100 25
+create circle 90 100 25 green
+create circle 150 100 25 green orange
+create circle 210 100 25 green orange 10
+
+
+create ellipse 30 150 25 10
+create ellipse 90 150 25 10 blue
+create ellipse 150 150 25 10 blue yellow
+create ellipse 210 150 25 10 blue yellow 10
+
+create polygon 25,170,33,187,50,187,37,204,42,221,25,210,8,221,13,204,1,187,17,187 
+create polygon 90,170,98,187,115,187,102,204,107,221,90,210,73,221,78,204,66,187,82,187 yellow
+create polygon 155,170,163,187,180,187,167,204,172,221,155,210,138,221,143,204,131,187,147,187 yellow black 
+create polygon 215,170,223,187,240,187,227,204,232,221,215,210,198,221,203,204,191,187,207,187 yellow black 8
+
+create line 10 250 50 300
+create line 60 250 110 300 blue
+create line 120 250 170 300 blue 8
+
+create polyline 25,320,33,337,50,337,37,354,42,371,25,360,8,371,13,354,1,337,17,337 
+create polyline 90,320,98,337,115,337,102,354,107,371,90,360,73,371,78,354,66,337,82,337 transparent 
+create polyline 155,320,163,337,180,337,167,354,172,371,155,360,138,371,143,354,131,337,147,337 transparent orange 
+create polyline 215,320,223,337,240,337,227,354,232,371,215,360,198,371,203,354,191,337,207,337 transparent orange 7
+
+save
+exit
+
